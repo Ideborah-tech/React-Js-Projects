@@ -1,0 +1,56 @@
+/* Main container */
+.app {
+  max-width: 350px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* Heading */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input field */
+input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+/* Buttons */
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Password requirements list */
+ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  margin-top: 15px;
+}
+
+li {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
