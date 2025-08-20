@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFF7ED;
+  font-family: "Inter", sans-serif;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Link button styles */
+.link-button {
+  @apply inline-block text-center no-underline border-none py-3 px-5 font-bold rounded-md cursor-pointer transition-transform duration-100 ease-in-out;
+}
+
+.link-button:hover {
+  @apply translate-x-px translate-y-px;
+}

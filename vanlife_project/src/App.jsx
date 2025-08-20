@@ -8,10 +8,10 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
    <BrowserRouter>
-   <header className="">
-    <Link to="/">#VANLIFE</Link>
+   <header className="h-[110px] flex items-center py-2.5">
+    <Link to="/" className="text-black mr-auto uppercase font-black text-[25px] p-5">#VANLIFE</Link>
     <nav>
-        <Link to="/about">About</Link>
+        <Link to="/about" className="no-underline text-[#4D4D4D] font-semibold py-1.5 px-5 hover:text-[#161616] hover:underline">About</Link>
     </nav>
    </header>
    <Routes>
